@@ -1,5 +1,8 @@
 public class Simulador {
 
+    public static final String CYAN = "\033[0;36m";
+    public static final String RESET = "\u001B[0m";
+
     /*Usás métodos static cuando:
     Los métodos en Simulador.java están definidos como static porque no necesitan acceder a atributos propios de una instancia de la clase Simulador. Es decir, no es necesario crear un objeto de tipo Simulador para poder usar esos métodos.
     El método no depende de datos internos (atributos) del objeto.

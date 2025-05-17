@@ -15,5 +15,4 @@ Aplicación Java de consola que permite simular préstamos financieros ingresand
 3. Ejecutar `Main.java`
 
 ## Autor
-
-**cris** – [GitHub](https://github.com/criseijas)
+Cristina Seijas

@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
 
+        String PURPLE = "\033[0;35m";
+        String RESET = "\u001B[0m";
+
         Scanner teclado = new Scanner(System.in);
 
         System.out.println("---- Simulador de préstamos ----");
@@ -14,7 +17,7 @@ public class Principal {
         int plazo = teclado.nextInt();
 
         Prestamo prestamo = new Prestamo(monto, tasa, plazo);
-        System.out.println("\nResumen del préstamo:");
+        System.out.println(PURPLE + "\nResumen del préstamo:" + RESET);
         Simulador.mostrarResumen(prestamo);
 
         teclado.close();
